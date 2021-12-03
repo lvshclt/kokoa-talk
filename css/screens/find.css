@@ -1,0 +1,134 @@
+.recommended-friends h6 {
+  padding: 10px 0px;
+  opacity: 0.7;
+}
+.recommended-friends h4 {
+  text-align: center;
+  padding: 150px 0px;
+  border-bottom: var(--main-border);
+  opacity: 0.7;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.footer-menu-right {
+  display: flex;
+  align-items: center;
+  opacity: 0.4;
+}
+
+.footer-menu-right i {
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.open-post {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post-members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+}
+.open-post-members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.open-post-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.open-post-hashtags {
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  opacity: 0.6;
+}
+
+.open-post__member-count {
+  color: rgba(0, 0, 0, 0.3);
+}
+.open-post__member-status {
+  color: #ff6ec7;
+}
+
+.left-img {
+  width: 100px;
+  height: 100px;
+}
+
+.heart {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 45px;
+}
+@keyframes heartBounce {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale(1.3);
+    color: tomato;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.heart i {
+  margin-right: 5px;
+}
+
+.heart i:hover {
+  cursor: pointer;
+  will-change: transform;
+  animation: heartBounce 0.5s ease-in-out infinite;
+}
+.open-post-column:last-child {
+  position: relative;
+}
+
+.open-post-column:last-child img {
+  border-radius: 10px;
+}
+
+.open-post {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-post-members .divider {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 14px;
+  width: 1px;
+}
+
+.open-post-members {
+  align-items: center;
+}

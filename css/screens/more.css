@@ -1,0 +1,73 @@
+.user-component {
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.fa-edit {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.user-component__text {
+  position: relative;
+}
+
+.fa-exclamation-circle {
+  position: absolute;
+  bottom: -2.5px;
+  right: -30px;
+  color: tomato;
+}
+
+.more-screen .icon-row {
+  width: 100%;
+
+  margin-top: 10px;
+
+  flex-wrap: wrap;
+}
+
+.more-screen .icon-row .icon-row__icon {
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px;
+}
+.more-suggestions .more-suggestions__title {
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+.more-suggestions .icon-row__icons {
+  display: flex;
+  margin-top: 35px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.more-suggestions .icon-row__icon {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+}
+
+.more-suggestions .icon-row__icon i {
+  background-color: var(--yellow);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@keyframes rotateCog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotatez(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.alt-cog {
+  animation: rotateCog 2s ease-in-out infinite;
+}

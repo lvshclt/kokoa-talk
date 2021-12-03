@@ -1,0 +1,37 @@
+.screen-header {
+  display: flex;
+  margin: 30px 0px;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  background-color: var(--status-bar-color);
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__icons > span {
+  margin-left: 25px;
+}
+
+.screen-header__red-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  right: -10px;
+  top: 2px;
+}
+
+.screen-header__icons {
+  position: relative;
+}

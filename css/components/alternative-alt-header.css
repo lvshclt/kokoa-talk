@@ -1,0 +1,19 @@
+.alt-status-bar {
+  background-color: rgba(67%, 76%, 82%, 0.9);
+}
+
+.alt-alt-header {
+  background-color: rgba(67%, 76%, 82%, 0.9);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: -2px;
+}
+
+.alt-alt-header .alt-header__column:nth-child(2) {
+  position: absolute;
+}
+
+#chat-screen .alt-header__column:last-child i:last-child {
+  margin-left: 10px;
+}
